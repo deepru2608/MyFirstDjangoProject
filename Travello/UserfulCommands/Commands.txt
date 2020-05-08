@@ -1,0 +1,17 @@
+
+-python manage.py startapp Travello - To Create new App
+
+-python manage.py collectstatic - Collect All File and Bind with Django Project and put it into
+    some folder(User Gives the folder name)
+
+-pip install psycopg2 - To Install Postgres Database Connector For Python
+
+-python manage.py makemigrations - To Migrate the Software Models with Postgres Database
+
+-pip install Pillow - To Handle Upload file we need this library
+
+-python manage.py sqlmigrate Travello 0001 -
+    {Travello - Is Project Name which your want to migrate} {0001 - is a migration file name which you
+    want to migrate} this command is used to create migration file
+
+-python manage.py migrate - To apply the migration into postgres database
